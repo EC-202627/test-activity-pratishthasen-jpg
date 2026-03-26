@@ -7,10 +7,10 @@
 #X — the amount of water client drank today.
 
 T = int(input())
-for k in range(T):
-    X=int(input())
-    if X >= 2000:
-        if X == 10000:
+for i in range(T):
+    x=int(input())
+    if x >= 2000:
+        if x == 10000:
             print("Its too much")
         else:
             print("Yes")
