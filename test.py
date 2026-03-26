@@ -9,9 +9,9 @@
 T = int(input())
 for k in range(T):
     X=int(input())
-    if X==10000:
+    if X == 10000:
         print("Is too much")
-    elif X>=2000:
+    elif X >= 2000:
         print("Yes")
     else:
         print("No")
